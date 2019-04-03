@@ -1,0 +1,724 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="report.js"></script>
+</head>
+<body>
+    <div class="card">
+        <div class="card-header">結果</div>
+        <div class="card-body">
+            <form id="load-config">
+                <textarea></textarea><button type="submit">載入</button>
+            </form>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>開始時間</th>
+                        <th>結束時間</th>
+                        <th>長度</th>
+                        <th>種類</th>
+                        <th>資訊</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header">動作區</div>
+        <div class="card-body" id="action-button">
+            <button id="btn-right">新聞開始</button>
+            <button id="btn-like-prev">跟上面一樣</button>
+            <button id="btn-ad">廣告</button>
+            <button id="btn-section-start">開播畫面</button>
+            <button id="btn-section-nexton">開播預告</button>
+            <button id="btn-undo">還原上一動</button>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            候選影像區
+        </div>
+        <div class="card-body">
+            <div class="group" data-start="1" data-end="1" data-youtube-id="" data-youtube-title=""><h1>00:01 - 00:01</h1>
+<div><img src='tile-0-0.png'><img src='crop-0-0.png'></div>
+</div>
+<div class="group" data-start="2" data-end="3" data-youtube-id="" data-youtube-title=""><h1>00:02 - 00:03</h1>
+<div class='lazyload' data-img='tile-1-0.png' data-crop='crop-1-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="4" data-end="5" data-youtube-id="" data-youtube-title=""><h1>00:04 - 00:05</h1>
+<div class='lazyload' data-img='tile-2-0.png' data-crop='crop-2-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="6" data-end="7" data-youtube-id="" data-youtube-title=""><h1>00:06 - 00:07</h1>
+<div class='lazyload' data-img='tile-3-0.png' data-crop='crop-3-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="8" data-end="9" data-youtube-id="" data-youtube-title=""><h1>00:08 - 00:09</h1>
+<div class='lazyload' data-img='tile-4-0.png' data-crop='crop-4-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="10" data-end="11" data-youtube-id="" data-youtube-title=""><h1>00:10 - 00:11</h1>
+<div class='lazyload' data-img='tile-5-0.png' data-crop='crop-5-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="12" data-end="13" data-youtube-id="" data-youtube-title=""><h1>00:12 - 00:13</h1>
+<div class='lazyload' data-img='tile-6-0.png' data-crop='crop-6-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="14" data-end="15" data-youtube-id="" data-youtube-title=""><h1>00:14 - 00:15</h1>
+<div class='lazyload' data-img='tile-7-0.png' data-crop='crop-7-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="16" data-end="17" data-youtube-id="" data-youtube-title=""><h1>00:16 - 00:17</h1>
+<div class='lazyload' data-img='tile-8-0.png' data-crop='crop-8-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="18" data-end="19" data-youtube-id="" data-youtube-title=""><h1>00:18 - 00:19</h1>
+<div class='lazyload' data-img='tile-9-0.png' data-crop='crop-9-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="20" data-end="21" data-youtube-id="" data-youtube-title=""><h1>00:20 - 00:21</h1>
+<div class='lazyload' data-img='tile-10-0.png' data-crop='crop-10-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="22" data-end="23" data-youtube-id="" data-youtube-title=""><h1>00:22 - 00:23</h1>
+<div class='lazyload' data-img='tile-11-0.png' data-crop='crop-11-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="24" data-end="26" data-youtube-id="" data-youtube-title=""><h1>00:24 - 00:26</h1>
+<div class='lazyload' data-img='tile-12-0.png' data-crop='crop-12-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="27" data-end="30" data-youtube-id="" data-youtube-title=""><h1>00:27 - 00:30</h1>
+<div class='lazyload' data-img='tile-13-0.png' data-crop='crop-13-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="31" data-end="34" data-youtube-id="" data-youtube-title=""><h1>00:31 - 00:34</h1>
+<div class='lazyload' data-img='tile-14-0.png' data-crop='crop-14-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="35" data-end="38" data-youtube-id="" data-youtube-title=""><h1>00:35 - 00:38</h1>
+<div class='lazyload' data-img='tile-15-0.png' data-crop='crop-15-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="39" data-end="42" data-youtube-id="" data-youtube-title=""><h1>00:39 - 00:42</h1>
+<div class='lazyload' data-img='tile-16-0.png' data-crop='crop-16-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="43" data-end="46" data-youtube-id="" data-youtube-title=""><h1>00:43 - 00:46</h1>
+<div class='lazyload' data-img='tile-17-0.png' data-crop='crop-17-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="47" data-end="47" data-youtube-id="" data-youtube-title=""><h1>00:47 - 00:47</h1>
+<div class='lazyload' data-img='tile-18-0.png' data-crop='crop-18-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="48" data-end="49" data-youtube-id="" data-youtube-title=""><h1>00:48 - 00:49</h1>
+<div class='lazyload' data-img='tile-19-0.png' data-crop='crop-19-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="50" data-end="50" data-youtube-id="" data-youtube-title=""><h1>00:50 - 00:50</h1>
+<div class='lazyload' data-img='tile-20-0.png' data-crop='crop-20-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="51" data-end="51" data-youtube-id="" data-youtube-title=""><h1>00:51 - 00:51</h1>
+<div class='lazyload' data-img='tile-21-0.png' data-crop='crop-21-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="52" data-end="52" data-youtube-id="" data-youtube-title=""><h1>00:52 - 00:52</h1>
+<div class='lazyload' data-img='tile-22-0.png' data-crop='crop-22-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="53" data-end="56" data-youtube-id="" data-youtube-title=""><h1>00:53 - 00:56</h1>
+<div class='lazyload' data-img='tile-23-0.png' data-crop='crop-23-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="57" data-end="58" data-youtube-id="" data-youtube-title=""><h1>00:57 - 00:58</h1>
+<div class='lazyload' data-img='tile-24-0.png' data-crop='crop-24-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="59" data-end="59" data-youtube-id="" data-youtube-title=""><h1>00:59 - 00:59</h1>
+<div class='lazyload' data-img='tile-25-0.png' data-crop='crop-25-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="60" data-end="62" data-youtube-id="" data-youtube-title=""><h1>01:00 - 01:02</h1>
+<div class='lazyload' data-img='tile-26-0.png' data-crop='crop-26-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="63" data-end="65" data-youtube-id="" data-youtube-title=""><h1>01:03 - 01:05</h1>
+<div class='lazyload' data-img='tile-27-0.png' data-crop='crop-27-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="66" data-end="66" data-youtube-id="" data-youtube-title=""><h1>01:06 - 01:06</h1>
+<div class='lazyload' data-img='tile-28-0.png' data-crop='crop-28-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="67" data-end="68" data-youtube-id="" data-youtube-title=""><h1>01:07 - 01:08</h1>
+<div class='lazyload' data-img='tile-29-0.png' data-crop='crop-29-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="69" data-end="72" data-youtube-id="" data-youtube-title=""><h1>01:09 - 01:12</h1>
+<div class='lazyload' data-img='tile-30-0.png' data-crop='crop-30-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="73" data-end="73" data-youtube-id="" data-youtube-title=""><h1>01:13 - 01:13</h1>
+<div class='lazyload' data-img='tile-31-0.png' data-crop='crop-31-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="74" data-end="76" data-youtube-id="" data-youtube-title=""><h1>01:14 - 01:16</h1>
+<div class='lazyload' data-img='tile-32-0.png' data-crop='crop-32-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="77" data-end="78" data-youtube-id="" data-youtube-title=""><h1>01:17 - 01:18</h1>
+<div class='lazyload' data-img='tile-33-0.png' data-crop='crop-33-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="79" data-end="80" data-youtube-id="" data-youtube-title=""><h1>01:19 - 01:20</h1>
+<div class='lazyload' data-img='tile-34-0.png' data-crop='crop-34-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="81" data-end="86" data-youtube-id="" data-youtube-title=""><h1>01:21 - 01:26</h1>
+<div class='lazyload' data-img='tile-35-0.png' data-crop='crop-35-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="87" data-end="109" data-youtube-id="" data-youtube-title=""><h1>01:27 - 01:49</h1>
+<div class='lazyload' data-img='tile-36-0.png' data-crop='crop-36-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="110" data-end="112" data-youtube-id="" data-youtube-title=""><h1>01:50 - 01:52</h1>
+<div class='lazyload' data-img='tile-37-0.png' data-crop='crop-37-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="113" data-end="116" data-youtube-id="" data-youtube-title=""><h1>01:53 - 01:56</h1>
+<div class='lazyload' data-img='tile-38-0.png' data-crop='crop-38-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="117" data-end="117" data-youtube-id="" data-youtube-title=""><h1>01:57 - 01:57</h1>
+<div class='lazyload' data-img='tile-39-0.png' data-crop='crop-39-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="118" data-end="118" data-youtube-id="" data-youtube-title=""><h1>01:58 - 01:58</h1>
+<div class='lazyload' data-img='tile-40-0.png' data-crop='crop-40-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="119" data-end="120" data-youtube-id="" data-youtube-title=""><h1>01:59 - 02:00</h1>
+<div class='lazyload' data-img='tile-41-0.png' data-crop='crop-41-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="121" data-end="122" data-youtube-id="" data-youtube-title=""><h1>02:01 - 02:02</h1>
+<div class='lazyload' data-img='tile-42-0.png' data-crop='crop-42-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="123" data-end="124" data-youtube-id="" data-youtube-title=""><h1>02:03 - 02:04</h1>
+<div class='lazyload' data-img='tile-43-0.png' data-crop='crop-43-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="125" data-end="125" data-youtube-id="" data-youtube-title=""><h1>02:05 - 02:05</h1>
+<div class='lazyload' data-img='tile-44-0.png' data-crop='crop-44-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="126" data-end="126" data-youtube-id="" data-youtube-title=""><h1>02:06 - 02:06</h1>
+<div class='lazyload' data-img='tile-45-0.png' data-crop='crop-45-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="127" data-end="127" data-youtube-id="" data-youtube-title=""><h1>02:07 - 02:07</h1>
+<div class='lazyload' data-img='tile-46-0.png' data-crop='crop-46-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="128" data-end="128" data-youtube-id="" data-youtube-title=""><h1>02:08 - 02:08</h1>
+<div class='lazyload' data-img='tile-47-0.png' data-crop='crop-47-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="129" data-end="130" data-youtube-id="" data-youtube-title=""><h1>02:09 - 02:10</h1>
+<div class='lazyload' data-img='tile-48-0.png' data-crop='crop-48-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="131" data-end="131" data-youtube-id="" data-youtube-title=""><h1>02:11 - 02:11</h1>
+<div class='lazyload' data-img='tile-49-0.png' data-crop='crop-49-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="132" data-end="132" data-youtube-id="" data-youtube-title=""><h1>02:12 - 02:12</h1>
+<div class='lazyload' data-img='tile-50-0.png' data-crop='crop-50-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="133" data-end="134" data-youtube-id="" data-youtube-title=""><h1>02:13 - 02:14</h1>
+<div class='lazyload' data-img='tile-51-0.png' data-crop='crop-51-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="135" data-end="136" data-youtube-id="" data-youtube-title=""><h1>02:15 - 02:16</h1>
+<div class='lazyload' data-img='tile-52-0.png' data-crop='crop-52-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="137" data-end="137" data-youtube-id="" data-youtube-title=""><h1>02:17 - 02:17</h1>
+<div class='lazyload' data-img='tile-53-0.png' data-crop='crop-53-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="138" data-end="138" data-youtube-id="" data-youtube-title=""><h1>02:18 - 02:18</h1>
+<div class='lazyload' data-img='tile-54-0.png' data-crop='crop-54-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="139" data-end="139" data-youtube-id="" data-youtube-title=""><h1>02:19 - 02:19</h1>
+<div class='lazyload' data-img='tile-55-0.png' data-crop='crop-55-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="140" data-end="140" data-youtube-id="" data-youtube-title=""><h1>02:20 - 02:20</h1>
+<div class='lazyload' data-img='tile-56-0.png' data-crop='crop-56-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="141" data-end="141" data-youtube-id="" data-youtube-title=""><h1>02:21 - 02:21</h1>
+<div class='lazyload' data-img='tile-57-0.png' data-crop='crop-57-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="142" data-end="142" data-youtube-id="" data-youtube-title=""><h1>02:22 - 02:22</h1>
+<div class='lazyload' data-img='tile-58-0.png' data-crop='crop-58-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="143" data-end="150" data-youtube-id="" data-youtube-title=""><h1>02:23 - 02:30</h1>
+<div class='lazyload' data-img='tile-59-0.png' data-crop='crop-59-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="151" data-end="177" data-youtube-id="" data-youtube-title=""><h1>02:31 - 02:57</h1>
+<div class='lazyload' data-img='tile-60-0.png' data-crop='crop-60-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="178" data-end="187" data-youtube-id="" data-youtube-title=""><h1>02:58 - 03:07</h1>
+<div class='lazyload' data-img='tile-61-0.png' data-crop='crop-61-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="188" data-end="198" data-youtube-id="2lNBHy8jS94" data-youtube-title="綠逢韓必卡！　各界籲「先救台灣才能救高雄」"><h1>03:08 - 03:18</h1>
+<h2>20190331. 綠逢韓必卡！　各界籲「先救台灣才能救高雄」(2lNBHy8jS94)</h2>
+<div class='lazyload' data-img='tile-62-0.png' data-crop='crop-62-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="199" data-end="211" data-youtube-id="" data-youtube-title=""><h1>03:19 - 03:31</h1>
+<div class='lazyload' data-img='tile-63-0.png' data-crop='crop-63-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="212" data-end="219" data-youtube-id="" data-youtube-title=""><h1>03:32 - 03:39</h1>
+<div class='lazyload' data-img='tile-64-0.png' data-crop='crop-64-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="220" data-end="222" data-youtube-id="2lNBHy8jS94" data-youtube-title="綠逢韓必卡！　各界籲「先救台灣才能救高雄」"><h1>03:40 - 03:42</h1>
+<h2>20190331. 綠逢韓必卡！　各界籲「先救台灣才能救高雄」(2lNBHy8jS94)</h2>
+<div class='lazyload' data-img='tile-65-0.png' data-crop='crop-65-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="223" data-end="234" data-youtube-id="" data-youtube-title=""><h1>03:43 - 03:54</h1>
+<div class='lazyload' data-img='tile-66-0.png' data-crop='crop-66-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="235" data-end="238" data-youtube-id="" data-youtube-title=""><h1>03:55 - 03:58</h1>
+<div class='lazyload' data-img='tile-67-0.png' data-crop='crop-67-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="239" data-end="241" data-youtube-id="" data-youtube-title=""><h1>03:59 - 04:01</h1>
+<div class='lazyload' data-img='tile-68-0.png' data-crop='crop-68-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="242" data-end="243" data-youtube-id="" data-youtube-title=""><h1>04:02 - 04:03</h1>
+<div class='lazyload' data-img='tile-69-0.png' data-crop='crop-69-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="244" data-end="254" data-youtube-id="2lNBHy8jS94" data-youtube-title="綠逢韓必卡！　各界籲「先救台灣才能救高雄」"><h1>04:04 - 04:14</h1>
+<h2>20190331. 綠逢韓必卡！　各界籲「先救台灣才能救高雄」(2lNBHy8jS94)</h2>
+<div class='lazyload' data-img='tile-70-0.png' data-crop='crop-70-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="255" data-end="255" data-youtube-id="" data-youtube-title=""><h1>04:15 - 04:15</h1>
+<div class='lazyload' data-img='tile-71-0.png' data-crop='crop-71-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="256" data-end="268" data-youtube-id="" data-youtube-title=""><h1>04:16 - 04:28</h1>
+<div class='lazyload' data-img='tile-72-0.png' data-crop='crop-72-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="269" data-end="285" data-youtube-id="2lNBHy8jS94" data-youtube-title="綠逢韓必卡！　各界籲「先救台灣才能救高雄」"><h1>04:29 - 04:45</h1>
+<h2>20190331. 綠逢韓必卡！　各界籲「先救台灣才能救高雄」(2lNBHy8jS94)</h2>
+<div class='lazyload' data-img='tile-73-0.png' data-crop='crop-73-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="286" data-end="337" data-youtube-id="" data-youtube-title=""><h1>04:46 - 05:37</h1>
+<div class='lazyload' data-img='tile-74-0.png' data-crop='crop-74-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="338" data-end="367" data-youtube-id="dvFQgbOc-yA" data-youtube-title="樂見韓不選2020？　王金平留言「大力支持」被嗆爆"><h1>05:38 - 06:07</h1>
+<h2>20190331. 樂見韓不選2020？　王金平留言「大力支持」被嗆爆(dvFQgbOc-yA)</h2>
+<div class='lazyload' data-img='tile-75-0.png' data-crop='crop-75-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="368" data-end="388" data-youtube-id="" data-youtube-title=""><h1>06:08 - 06:28</h1>
+<div class='lazyload' data-img='tile-76-0.png' data-crop='crop-76-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="389" data-end="389" data-youtube-id="" data-youtube-title=""><h1>06:29 - 06:29</h1>
+<div class='lazyload' data-img='tile-77-0.png' data-crop='crop-77-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="390" data-end="433" data-youtube-id="dvFQgbOc-yA" data-youtube-title="樂見韓不選2020？　王金平留言「大力支持」被嗆爆"><h1>06:30 - 07:13</h1>
+<h2>20190331. 樂見韓不選2020？　王金平留言「大力支持」被嗆爆(dvFQgbOc-yA)</h2>
+<div class='lazyload' data-img='tile-78-0.png' data-crop='crop-78-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="434" data-end="434" data-youtube-id="" data-youtube-title=""><h1>07:14 - 07:14</h1>
+<div class='lazyload' data-img='tile-79-0.png' data-crop='crop-79-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="435" data-end="475" data-youtube-id="" data-youtube-title=""><h1>07:15 - 07:55</h1>
+<div class='lazyload' data-img='tile-80-0.png' data-crop='crop-80-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="476" data-end="532" data-youtube-id="_jp5p4jWCN4" data-youtube-title="非韓不投！　韓國瑜深夜PO文　韓粉得憂鬱症"><h1>07:56 - 08:52</h1>
+<h2>20190331. 非韓不投！　韓國瑜深夜PO文　韓粉得憂鬱症(_jp5p4jWCN4)</h2>
+<div class='lazyload' data-img='tile-81-0.png' data-crop='crop-81-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="533" data-end="543" data-youtube-id="" data-youtube-title=""><h1>08:53 - 09:03</h1>
+<div class='lazyload' data-img='tile-82-0.png' data-crop='crop-82-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="544" data-end="575" data-youtube-id="_jp5p4jWCN4" data-youtube-title="非韓不投！　韓國瑜深夜PO文　韓粉得憂鬱症"><h1>09:04 - 09:35</h1>
+<h2>20190331. 非韓不投！　韓國瑜深夜PO文　韓粉得憂鬱症(_jp5p4jWCN4)</h2>
+<div class='lazyload' data-img='tile-83-0.png' data-crop='crop-83-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="576" data-end="594" data-youtube-id="" data-youtube-title=""><h1>09:36 - 09:54</h1>
+<div class='lazyload' data-img='tile-84-0.png' data-crop='crop-84-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="595" data-end="595" data-youtube-id="" data-youtube-title=""><h1>09:55 - 09:55</h1>
+<div class='lazyload' data-img='tile-85-0.png' data-crop='crop-85-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="596" data-end="597" data-youtube-id="" data-youtube-title=""><h1>09:56 - 09:57</h1>
+<div class='lazyload' data-img='tile-86-0.png' data-crop='crop-86-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="598" data-end="691" data-youtube-id="RdZyA5c3kiQ" data-youtube-title="盼韓國瑜選總統　火鍋店老闆：韓粉免費吃一天"><h1>09:58 - 11:31</h1>
+<h2>20190331. 盼韓國瑜選總統　火鍋店老闆：韓粉免費吃一天(RdZyA5c3kiQ)</h2>
+<div class='lazyload' data-img='tile-87-0.png' data-crop='crop-87-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="692" data-end="719" data-youtube-id="" data-youtube-title=""><h1>11:32 - 11:59</h1>
+<div class='lazyload' data-img='tile-88-0.png' data-crop='crop-88-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="720" data-end="721" data-youtube-id="" data-youtube-title=""><h1>12:00 - 12:01</h1>
+<div class='lazyload' data-img='tile-89-0.png' data-crop='crop-89-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="722" data-end="820" data-youtube-id="sCf_r5Md2Cs" data-youtube-title="比武招親冠軍出爐！　與許淑華共進下午茶"><h1>12:02 - 13:40</h1>
+<h2>20190331. 比武招親冠軍出爐！　與許淑華共進下午茶(sCf_r5Md2Cs)</h2>
+<div class='lazyload' data-img='tile-90-0.png' data-crop='crop-90-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="821" data-end="848" data-youtube-id="" data-youtube-title=""><h1>13:41 - 14:08</h1>
+<div class='lazyload' data-img='tile-91-0.png' data-crop='crop-91-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="849" data-end="849" data-youtube-id="" data-youtube-title=""><h1>14:09 - 14:09</h1>
+<div class='lazyload' data-img='tile-92-0.png' data-crop='crop-92-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="850" data-end="949" data-youtube-id="z4hjtv3impk" data-youtube-title="總統南下遭批「鴨霸」停車　警澄清誤會一場"><h1>14:10 - 15:49</h1>
+<h2>20190331. 總統南下遭批「鴨霸」停車　警澄清誤會一場(z4hjtv3impk)</h2>
+<div class='lazyload' data-img='tile-93-0.png' data-crop='crop-93-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="950" data-end="1036" data-youtube-id="" data-youtube-title=""><h1>15:50 - 17:16</h1>
+<div class='lazyload' data-img='tile-94-0.png' data-crop='crop-94-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="1037" data-end="1037" data-youtube-id="" data-youtube-title=""><h1>17:17 - 17:17</h1>
+<div class='lazyload' data-img='tile-95-0.png' data-crop='crop-95-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="1038" data-end="1097" data-youtube-id="" data-youtube-title=""><h1>17:18 - 18:17</h1>
+<div class='lazyload' data-img='tile-96-0.png' data-crop='crop-96-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="1098" data-end="1106" data-youtube-id="bQPMYi64koM" data-youtube-title="綠營抹黑攻擊沒停過　韓國瑜：民進黨沒進步"><h1>18:18 - 18:26</h1>
+<h2>20190331. 綠營抹黑攻擊沒停過　韓國瑜：民進黨沒進步(bQPMYi64koM)</h2>
+<div class='lazyload' data-img='tile-97-0.png' data-crop='crop-97-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="1107" data-end="1142" data-youtube-id="" data-youtube-title=""><h1>18:27 - 19:02</h1>
+<div class='lazyload' data-img='tile-98-0.png' data-crop='crop-98-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="1143" data-end="1248" data-youtube-id="eULoU-DZOv0" data-youtube-title="檢舉同學考試作弊　老師竟罰「公開道歉」"><h1>19:03 - 20:48</h1>
+<h2>20190331. 檢舉同學考試作弊　老師竟罰「公開道歉」(eULoU-DZOv0)</h2>
+<div class='lazyload' data-img='tile-99-0.png' data-crop='crop-99-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="1249" data-end="1300" data-youtube-id="VlxY_hvLtLA" data-youtube-title="奧客玩蝦遭制止　網頁評論1星反嗆「態度不佳」"><h1>20:49 - 21:40</h1>
+<h2>20190331. 奧客玩蝦遭制止　網頁評論1星反嗆「態度不佳」(VlxY_hvLtLA)</h2>
+<div class='lazyload' data-img='tile-100-0.png' data-crop='crop-100-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="1301" data-end="1308" data-youtube-id="" data-youtube-title=""><h1>21:41 - 21:48</h1>
+<div class='lazyload' data-img='tile-101-0.png' data-crop='crop-101-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="1309" data-end="1312" data-youtube-id="" data-youtube-title=""><h1>21:49 - 21:52</h1>
+<div class='lazyload' data-img='tile-102-0.png' data-crop='crop-102-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="1313" data-end="1317" data-youtube-id="" data-youtube-title=""><h1>21:53 - 21:57</h1>
+<div class='lazyload' data-img='tile-103-0.png' data-crop='crop-103-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="1318" data-end="1358" data-youtube-id="VlxY_hvLtLA" data-youtube-title="奧客玩蝦遭制止　網頁評論1星反嗆「態度不佳」"><h1>21:58 - 22:38</h1>
+<h2>20190331. 奧客玩蝦遭制止　網頁評論1星反嗆「態度不佳」(VlxY_hvLtLA)</h2>
+<div class='lazyload' data-img='tile-104-0.png' data-crop='crop-104-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="1359" data-end="1388" data-youtube-id="" data-youtube-title=""><h1>22:39 - 23:08</h1>
+<div class='lazyload' data-img='tile-105-0.png' data-crop='crop-105-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="1389" data-end="1400" data-youtube-id="" data-youtube-title=""><h1>23:09 - 23:20</h1>
+<div class='lazyload' data-img='tile-106-0.png' data-crop='crop-106-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="1401" data-end="1481" data-youtube-id="GvdiGqI0jgo" data-youtube-title="韓國瑜上任3個月　農漁產外銷訂單共簽84.7億"><h1>23:21 - 24:41</h1>
+<h2>20190331. 韓國瑜上任3個月　農漁產外銷訂單共簽84.7億(GvdiGqI0jgo)</h2>
+<div class='lazyload' data-img='tile-107-0.png' data-crop='crop-107-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="1482" data-end="1561" data-youtube-id="1ikcQl_yUYI" data-youtube-title="韓市府拆3路橋效率高　網讚比預期快2年"><h1>24:42 - 26:01</h1>
+<h2>20190331. 韓市府拆3路橋效率高　網讚比預期快2年(1ikcQl_yUYI)</h2>
+<div class='lazyload' data-img='tile-108-0.png' data-crop='crop-108-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="1562" data-end="1568" data-youtube-id="" data-youtube-title=""><h1>26:02 - 26:08</h1>
+<div class='lazyload' data-img='tile-109-0.png' data-crop='crop-109-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="1569" data-end="1578" data-youtube-id="" data-youtube-title=""><h1>26:09 - 26:18</h1>
+<div class='lazyload' data-img='tile-110-0.png' data-crop='crop-110-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="1579" data-end="1582" data-youtube-id="" data-youtube-title=""><h1>26:19 - 26:22</h1>
+<div class='lazyload' data-img='tile-111-0.png' data-crop='crop-111-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="1583" data-end="1593" data-youtube-id="1ikcQl_yUYI" data-youtube-title="韓市府拆3路橋效率高　網讚比預期快2年"><h1>26:23 - 26:33</h1>
+<h2>20190331. 韓市府拆3路橋效率高　網讚比預期快2年(1ikcQl_yUYI)</h2>
+<div class='lazyload' data-img='tile-112-0.png' data-crop='crop-112-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="1594" data-end="1621" data-youtube-id="" data-youtube-title=""><h1>26:34 - 27:01</h1>
+<div class='lazyload' data-img='tile-113-0.png' data-crop='crop-113-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="1622" data-end="1723" data-youtube-id="fMZIM1sTh-Q" data-youtube-title="荷包又要縮水！　4月汽油、瓦斯雙漲　小吃店、餐廳慘"><h1>27:02 - 28:43</h1>
+<h2>20190331. 荷包又要縮水！　4月汽油、瓦斯雙漲　小吃店、餐廳慘(fMZIM1sTh-Q)</h2>
+<div class='lazyload' data-img='tile-114-0.png' data-crop='crop-114-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="1724" data-end="1813" data-youtube-id="" data-youtube-title=""><h1>28:44 - 30:13</h1>
+<div class='lazyload' data-img='tile-115-0.png' data-crop='crop-115-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="1814" data-end="1849" data-youtube-id="" data-youtube-title=""><h1>30:14 - 30:49</h1>
+<div class='lazyload' data-img='tile-116-0.png' data-crop='crop-116-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="1850" data-end="1850" data-youtube-id="" data-youtube-title=""><h1>30:50 - 30:50</h1>
+<div class='lazyload' data-img='tile-117-0.png' data-crop='crop-117-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="1851" data-end="1855" data-youtube-id="" data-youtube-title=""><h1>30:51 - 30:55</h1>
+<div class='lazyload' data-img='tile-118-0.png' data-crop='crop-118-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="1856" data-end="1862" data-youtube-id="" data-youtube-title=""><h1>30:56 - 31:02</h1>
+<div class='lazyload' data-img='tile-119-0.png' data-crop='crop-119-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="1863" data-end="1900" data-youtube-id="" data-youtube-title=""><h1>31:03 - 31:40</h1>
+<div class='lazyload' data-img='tile-120-0.png' data-crop='crop-120-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="1901" data-end="1908" data-youtube-id="" data-youtube-title=""><h1>31:41 - 31:48</h1>
+<div class='lazyload' data-img='tile-121-0.png' data-crop='crop-121-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="1909" data-end="1916" data-youtube-id="" data-youtube-title=""><h1>31:49 - 31:56</h1>
+<div class='lazyload' data-img='tile-122-0.png' data-crop='crop-122-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="1917" data-end="1923" data-youtube-id="" data-youtube-title=""><h1>31:57 - 32:03</h1>
+<div class='lazyload' data-img='tile-123-0.png' data-crop='crop-123-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="1924" data-end="1924" data-youtube-id="" data-youtube-title=""><h1>32:04 - 32:04</h1>
+<div class='lazyload' data-img='tile-124-0.png' data-crop='crop-124-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="1925" data-end="1991" data-youtube-id="wNHg8mwCz8s" data-youtube-title="「救台灣戰2020」　劉家昌、熊海靈挺韓國瑜選總統"><h1>32:05 - 33:11</h1>
+<h2>20190331. 「救台灣戰2020」　劉家昌、熊海靈挺韓國瑜選總統(wNHg8mwCz8s)</h2>
+<div class='lazyload' data-img='tile-125-0.png' data-crop='crop-125-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="1992" data-end="2013" data-youtube-id="" data-youtube-title=""><h1>33:12 - 33:33</h1>
+<div class='lazyload' data-img='tile-126-0.png' data-crop='crop-126-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="2014" data-end="2021" data-youtube-id="" data-youtube-title=""><h1>33:34 - 33:41</h1>
+<div class='lazyload' data-img='tile-127-0.png' data-crop='crop-127-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="2022" data-end="2026" data-youtube-id="" data-youtube-title=""><h1>33:42 - 33:46</h1>
+<div class='lazyload' data-img='tile-128-0.png' data-crop='crop-128-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="2027" data-end="2080" data-youtube-id="nSmDtVQYQJo" data-youtube-title="早認定誰是母雞！　藍營小雞齊拱韓國瑜參選"><h1>33:47 - 34:40</h1>
+<h2>20190331. 早認定誰是母雞！　藍營小雞齊拱韓國瑜參選(nSmDtVQYQJo)</h2>
+<div class='lazyload' data-img='tile-129-0.png' data-crop='crop-129-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="2081" data-end="2106" data-youtube-id="" data-youtube-title=""><h1>34:41 - 35:06</h1>
+<div class='lazyload' data-img='tile-130-0.png' data-crop='crop-130-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="2107" data-end="2114" data-youtube-id="nSmDtVQYQJo" data-youtube-title="早認定誰是母雞！　藍營小雞齊拱韓國瑜參選"><h1>35:07 - 35:14</h1>
+<h2>20190331. 早認定誰是母雞！　藍營小雞齊拱韓國瑜參選(nSmDtVQYQJo)</h2>
+<div class='lazyload' data-img='tile-131-0.png' data-crop='crop-131-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="2115" data-end="2126" data-youtube-id="" data-youtube-title=""><h1>35:15 - 35:26</h1>
+<div class='lazyload' data-img='tile-132-0.png' data-crop='crop-132-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="2127" data-end="2129" data-youtube-id="" data-youtube-title=""><h1>35:27 - 35:29</h1>
+<div class='lazyload' data-img='tile-133-0.png' data-crop='crop-133-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="2130" data-end="2132" data-youtube-id="" data-youtube-title=""><h1>35:30 - 35:32</h1>
+<div class='lazyload' data-img='tile-134-0.png' data-crop='crop-134-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="2133" data-end="2138" data-youtube-id="" data-youtube-title=""><h1>35:33 - 35:38</h1>
+<div class='lazyload' data-img='tile-135-0.png' data-crop='crop-135-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="2139" data-end="2163" data-youtube-id="" data-youtube-title=""><h1>35:39 - 36:03</h1>
+<div class='lazyload' data-img='tile-136-0.png' data-crop='crop-136-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="2164" data-end="2166" data-youtube-id="" data-youtube-title=""><h1>36:04 - 36:06</h1>
+<div class='lazyload' data-img='tile-137-0.png' data-crop='crop-137-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="2167" data-end="2168" data-youtube-id="" data-youtube-title=""><h1>36:07 - 36:08</h1>
+<div class='lazyload' data-img='tile-138-0.png' data-crop='crop-138-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="2169" data-end="2170" data-youtube-id="" data-youtube-title=""><h1>36:09 - 36:10</h1>
+<div class='lazyload' data-img='tile-139-0.png' data-crop='crop-139-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="2171" data-end="2198" data-youtube-id="" data-youtube-title=""><h1>36:11 - 36:38</h1>
+<div class='lazyload' data-img='tile-140-0.png' data-crop='crop-140-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="2199" data-end="2209" data-youtube-id="" data-youtube-title=""><h1>36:39 - 36:49</h1>
+<div class='lazyload' data-img='tile-141-0.png' data-crop='crop-141-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="2210" data-end="2210" data-youtube-id="" data-youtube-title=""><h1>36:50 - 36:50</h1>
+<div class='lazyload' data-img='tile-142-0.png' data-crop='crop-142-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="2211" data-end="2243" data-youtube-id="" data-youtube-title=""><h1>36:51 - 37:23</h1>
+<div class='lazyload' data-img='tile-143-0.png' data-crop='crop-143-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="2244" data-end="2244" data-youtube-id="" data-youtube-title=""><h1>37:24 - 37:24</h1>
+<div class='lazyload' data-img='tile-144-0.png' data-crop='crop-144-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="2245" data-end="2248" data-youtube-id="" data-youtube-title=""><h1>37:25 - 37:28</h1>
+<div class='lazyload' data-img='tile-145-0.png' data-crop='crop-145-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="2249" data-end="2269" data-youtube-id="" data-youtube-title=""><h1>37:29 - 37:49</h1>
+<div class='lazyload' data-img='tile-146-0.png' data-crop='crop-146-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="2270" data-end="2272" data-youtube-id="" data-youtube-title=""><h1>37:50 - 37:52</h1>
+<div class='lazyload' data-img='tile-147-0.png' data-crop='crop-147-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="2273" data-end="2281" data-youtube-id="" data-youtube-title=""><h1>37:53 - 38:01</h1>
+<div class='lazyload' data-img='tile-148-0.png' data-crop='crop-148-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="2282" data-end="2301" data-youtube-id="" data-youtube-title=""><h1>38:02 - 38:21</h1>
+<div class='lazyload' data-img='tile-149-0.png' data-crop='crop-149-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="2302" data-end="2312" data-youtube-id="" data-youtube-title=""><h1>38:22 - 38:32</h1>
+<div class='lazyload' data-img='tile-150-0.png' data-crop='crop-150-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="2313" data-end="2331" data-youtube-id="" data-youtube-title=""><h1>38:33 - 38:51</h1>
+<div class='lazyload' data-img='tile-151-0.png' data-crop='crop-151-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="2332" data-end="2349" data-youtube-id="" data-youtube-title=""><h1>38:52 - 39:09</h1>
+<div class='lazyload' data-img='tile-152-0.png' data-crop='crop-152-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="2350" data-end="2401" data-youtube-id="ZAAf7tm0AGI" data-youtube-title="挺韓愛情鏈政見！網友自掏腰包製藍圖"><h1>39:10 - 40:01</h1>
+<h2>20190331. 挺韓愛情鏈政見！網友自掏腰包製藍圖(ZAAf7tm0AGI)</h2>
+<div class='lazyload' data-img='tile-153-0.png' data-crop='crop-153-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="2402" data-end="2407" data-youtube-id="" data-youtube-title=""><h1>40:02 - 40:07</h1>
+<div class='lazyload' data-img='tile-154-0.png' data-crop='crop-154-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="2408" data-end="2414" data-youtube-id="" data-youtube-title=""><h1>40:08 - 40:14</h1>
+<div class='lazyload' data-img='tile-155-0.png' data-crop='crop-155-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="2415" data-end="2432" data-youtube-id="ZAAf7tm0AGI" data-youtube-title="挺韓愛情鏈政見！網友自掏腰包製藍圖"><h1>40:15 - 40:32</h1>
+<h2>20190331. 挺韓愛情鏈政見！網友自掏腰包製藍圖(ZAAf7tm0AGI)</h2>
+<div class='lazyload' data-img='tile-156-0.png' data-crop='crop-156-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="2433" data-end="2453" data-youtube-id="" data-youtube-title=""><h1>40:33 - 40:53</h1>
+<div class='lazyload' data-img='tile-157-0.png' data-crop='crop-157-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="2454" data-end="2454" data-youtube-id="" data-youtube-title=""><h1>40:54 - 40:54</h1>
+<div class='lazyload' data-img='tile-158-0.png' data-crop='crop-158-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="2455" data-end="2561" data-youtube-id="y97KRWNGvp0" data-youtube-title="國際客貨日增　韓國瑜再喊話：高雄需要國際機場！"><h1>40:55 - 42:41</h1>
+<h2>20190331. 國際客貨日增　韓國瑜再喊話：高雄需要國際機場！(y97KRWNGvp0)</h2>
+<div class='lazyload' data-img='tile-159-0.png' data-crop='crop-159-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="2562" data-end="2586" data-youtube-id="" data-youtube-title=""><h1>42:42 - 43:06</h1>
+<div class='lazyload' data-img='tile-160-0.png' data-crop='crop-160-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="2587" data-end="2607" data-youtube-id="" data-youtube-title=""><h1>43:07 - 43:27</h1>
+<div class='lazyload' data-img='tile-161-0.png' data-crop='crop-161-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="2608" data-end="2609" data-youtube-id="" data-youtube-title=""><h1>43:28 - 43:29</h1>
+<div class='lazyload' data-img='tile-162-0.png' data-crop='crop-162-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="2610" data-end="2610" data-youtube-id="" data-youtube-title=""><h1>43:30 - 43:30</h1>
+<div class='lazyload' data-img='tile-163-0.png' data-crop='crop-163-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="2611" data-end="2626" data-youtube-id="" data-youtube-title=""><h1>43:31 - 43:46</h1>
+<div class='lazyload' data-img='tile-164-0.png' data-crop='crop-164-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="2627" data-end="2636" data-youtube-id="" data-youtube-title=""><h1>43:47 - 43:56</h1>
+<div class='lazyload' data-img='tile-165-0.png' data-crop='crop-165-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="2637" data-end="2659" data-youtube-id="" data-youtube-title=""><h1>43:57 - 44:19</h1>
+<div class='lazyload' data-img='tile-166-0.png' data-crop='crop-166-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="2660" data-end="2667" data-youtube-id="" data-youtube-title=""><h1>44:20 - 44:27</h1>
+<div class='lazyload' data-img='tile-167-0.png' data-crop='crop-167-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="2668" data-end="2761" data-youtube-id="EzwOalyhX3A" data-youtube-title="跟著媽祖跑！　顏清標拉筋摔倒四腳朝天"><h1>44:28 - 46:01</h1>
+<h2>20190331. 跟著媽祖跑！　顏清標拉筋摔倒四腳朝天(EzwOalyhX3A)</h2>
+<div class='lazyload' data-img='tile-168-0.png' data-crop='crop-168-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="2762" data-end="2860" data-youtube-id="xfaIzZWvfaA" data-youtube-title="四一新制上路！　癮君子、汽車駕駛小心挨罰"><h1>46:02 - 47:40</h1>
+<h2>20190331. 四一新制上路！　癮君子、汽車駕駛小心挨罰(xfaIzZWvfaA)</h2>
+<div class='lazyload' data-img='tile-169-0.png' data-crop='crop-169-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="2861" data-end="2932" data-youtube-id="2lB_HAtl0vU" data-youtube-title="「這是無聊八卦」　爾開希酒駕0.4遭移送"><h1>47:41 - 48:52</h1>
+<h2>20190331. 「這是無聊八卦」　爾開希酒駕0.4遭移送(2lB_HAtl0vU)</h2>
+<div class='lazyload' data-img='tile-170-0.png' data-crop='crop-170-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="2933" data-end="2970" data-youtube-id="" data-youtube-title=""><h1>48:53 - 49:30</h1>
+<div class='lazyload' data-img='tile-171-0.png' data-crop='crop-171-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="2971" data-end="2986" data-youtube-id="2lB_HAtl0vU" data-youtube-title="「這是無聊八卦」　爾開希酒駕0.4遭移送"><h1>49:31 - 49:46</h1>
+<h2>20190331. 「這是無聊八卦」　爾開希酒駕0.4遭移送(2lB_HAtl0vU)</h2>
+<div class='lazyload' data-img='tile-172-0.png' data-crop='crop-172-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="2987" data-end="3016" data-youtube-id="V49tQK-0KK0" data-youtube-title="逆向超車！藍寶堅尼撞全毀　油罐車摔落邊坡"><h1>49:47 - 50:16</h1>
+<h2>20190331. 逆向超車！藍寶堅尼撞全毀　油罐車摔落邊坡(V49tQK-0KK0)</h2>
+<div class='lazyload' data-img='tile-173-0.png' data-crop='crop-173-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="3017" data-end="3017" data-youtube-id="" data-youtube-title=""><h1>50:17 - 50:17</h1>
+<div class='lazyload' data-img='tile-174-0.png' data-crop='crop-174-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="3018" data-end="3019" data-youtube-id="" data-youtube-title=""><h1>50:18 - 50:19</h1>
+<div class='lazyload' data-img='tile-175-0.png' data-crop='crop-175-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="3020" data-end="3020" data-youtube-id="" data-youtube-title=""><h1>50:20 - 50:20</h1>
+<div class='lazyload' data-img='tile-176-0.png' data-crop='crop-176-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="3021" data-end="3071" data-youtube-id="" data-youtube-title=""><h1>50:21 - 51:11</h1>
+<div class='lazyload' data-img='tile-177-0.png' data-crop='crop-177-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="3072" data-end="3083" data-youtube-id="" data-youtube-title=""><h1>51:12 - 51:23</h1>
+<div class='lazyload' data-img='tile-178-0.png' data-crop='crop-178-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="3084" data-end="3131" data-youtube-id="gIwP9J7JXnE" data-youtube-title="清水透天厝惡火！　父母雙亡　3子女傷重未脫險"><h1>51:24 - 52:11</h1>
+<h2>20190331. 清水透天厝惡火！　父母雙亡　3子女傷重未脫險(gIwP9J7JXnE)</h2>
+<div class='lazyload' data-img='tile-179-0.png' data-crop='crop-179-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="3132" data-end="3147" data-youtube-id="KTXpyB-c1gE" data-youtube-title="清水透天厝惡火！父母雙亡　3子女傷重未脫險"><h1>52:12 - 52:27</h1>
+<h2>20190331. 清水透天厝惡火！父母雙亡　3子女傷重未脫險(KTXpyB-c1gE)</h2>
+<div class='lazyload' data-img='tile-180-0.png' data-crop='crop-180-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="3148" data-end="3152" data-youtube-id="" data-youtube-title=""><h1>52:28 - 52:32</h1>
+<div class='lazyload' data-img='tile-181-0.png' data-crop='crop-181-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="3153" data-end="3173" data-youtube-id="gIwP9J7JXnE" data-youtube-title="清水透天厝惡火！　父母雙亡　3子女傷重未脫險"><h1>52:33 - 52:53</h1>
+<h2>20190331. 清水透天厝惡火！　父母雙亡　3子女傷重未脫險(gIwP9J7JXnE)</h2>
+<div class='lazyload' data-img='tile-182-0.png' data-crop='crop-182-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="3174" data-end="3196" data-youtube-id="KTXpyB-c1gE" data-youtube-title="清水透天厝惡火！父母雙亡　3子女傷重未脫險"><h1>52:54 - 53:16</h1>
+<h2>20190331. 清水透天厝惡火！父母雙亡　3子女傷重未脫險(KTXpyB-c1gE)</h2>
+<div class='lazyload' data-img='tile-183-0.png' data-crop='crop-183-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="3197" data-end="3291" data-youtube-id="hKoxOTlnNTQ" data-youtube-title="三代同堂天倫夢碎　祖父母赴陸觀光不知噩耗"><h1>53:17 - 54:51</h1>
+<h2>20190331. 三代同堂天倫夢碎　祖父母赴陸觀光不知噩耗(hKoxOTlnNTQ)</h2>
+<div class='lazyload' data-img='tile-184-0.png' data-crop='crop-184-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="3292" data-end="3295" data-youtube-id="" data-youtube-title=""><h1>54:52 - 54:55</h1>
+<div class='lazyload' data-img='tile-185-0.png' data-crop='crop-185-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="3296" data-end="3296" data-youtube-id="" data-youtube-title=""><h1>54:56 - 54:56</h1>
+<div class='lazyload' data-img='tile-186-0.png' data-crop='crop-186-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="3297" data-end="3297" data-youtube-id="" data-youtube-title=""><h1>54:57 - 54:57</h1>
+<div class='lazyload' data-img='tile-187-0.png' data-crop='crop-187-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="3298" data-end="3339" data-youtube-id="" data-youtube-title=""><h1>54:58 - 55:39</h1>
+<div class='lazyload' data-img='tile-188-0.png' data-crop='crop-188-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="3340" data-end="3340" data-youtube-id="" data-youtube-title=""><h1>55:40 - 55:40</h1>
+<div class='lazyload' data-img='tile-189-0.png' data-crop='crop-189-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="3341" data-end="3386" data-youtube-id="2lNBHy8jS94" data-youtube-title="綠逢韓必卡！　各界籲「先救台灣才能救高雄」"><h1>55:41 - 56:26</h1>
+<h2>20190331. 綠逢韓必卡！　各界籲「先救台灣才能救高雄」(2lNBHy8jS94)</h2>
+<div class='lazyload' data-img='tile-190-0.png' data-crop='crop-190-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="3387" data-end="3390" data-youtube-id="" data-youtube-title=""><h1>56:27 - 56:30</h1>
+<div class='lazyload' data-img='tile-191-0.png' data-crop='crop-191-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="3391" data-end="3393" data-youtube-id="" data-youtube-title=""><h1>56:31 - 56:33</h1>
+<div class='lazyload' data-img='tile-192-0.png' data-crop='crop-192-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="3394" data-end="3396" data-youtube-id="" data-youtube-title=""><h1>56:34 - 56:36</h1>
+<div class='lazyload' data-img='tile-193-0.png' data-crop='crop-193-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="3397" data-end="3407" data-youtube-id="2lNBHy8jS94" data-youtube-title="綠逢韓必卡！　各界籲「先救台灣才能救高雄」"><h1>56:37 - 56:47</h1>
+<h2>20190331. 綠逢韓必卡！　各界籲「先救台灣才能救高雄」(2lNBHy8jS94)</h2>
+<div class='lazyload' data-img='tile-194-0.png' data-crop='crop-194-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="3408" data-end="3420" data-youtube-id="" data-youtube-title=""><h1>56:48 - 57:00</h1>
+<div class='lazyload' data-img='tile-195-0.png' data-crop='crop-195-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="3421" data-end="3437" data-youtube-id="2lNBHy8jS94" data-youtube-title="綠逢韓必卡！　各界籲「先救台灣才能救高雄」"><h1>57:01 - 57:17</h1>
+<h2>20190331. 綠逢韓必卡！　各界籲「先救台灣才能救高雄」(2lNBHy8jS94)</h2>
+<div class='lazyload' data-img='tile-196-0.png' data-crop='crop-196-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="3438" data-end="3560" data-youtube-id="_jp5p4jWCN4" data-youtube-title="非韓不投！　韓國瑜深夜PO文　韓粉得憂鬱症"><h1>57:18 - 59:20</h1>
+<h2>20190331. 非韓不投！　韓國瑜深夜PO文　韓粉得憂鬱症(_jp5p4jWCN4)</h2>
+<div class='lazyload' data-img='tile-197-0.png' data-crop='crop-197-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="3561" data-end="3671" data-youtube-id="bjDQCesSPWU" data-youtube-title="救台灣才能救高雄　暴動蓋樓求韓選2020"><h1>59:21 - 61:11</h1>
+<h2>20190331. 救台灣才能救高雄　暴動蓋樓求韓選2020(bjDQCesSPWU)</h2>
+<div class='lazyload' data-img='tile-198-0.png' data-crop='crop-198-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="3672" data-end="3696" data-youtube-id="80YZZMGYthk" data-youtube-title="沒說不參選！　韓國瑜笑唱「堅持不考慮2020」"><h1>61:12 - 61:36</h1>
+<h2>20190331. 沒說不參選！　韓國瑜笑唱「堅持不考慮2020」(80YZZMGYthk)</h2>
+<div class='lazyload' data-img='tile-199-0.png' data-crop='crop-199-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="3697" data-end="3724" data-youtube-id="bjDQCesSPWU" data-youtube-title="救台灣才能救高雄　暴動蓋樓求韓選2020"><h1>61:37 - 62:04</h1>
+<h2>20190331. 救台灣才能救高雄　暴動蓋樓求韓選2020(bjDQCesSPWU)</h2>
+<div class='lazyload' data-img='tile-200-0.png' data-crop='crop-200-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="3725" data-end="3738" data-youtube-id="" data-youtube-title=""><h1>62:05 - 62:18</h1>
+<div class='lazyload' data-img='tile-201-0.png' data-crop='crop-201-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="3739" data-end="3772" data-youtube-id="dvFQgbOc-yA" data-youtube-title="樂見韓不選2020？　王金平留言「大力支持」被嗆爆"><h1>62:19 - 62:52</h1>
+<h2>20190331. 樂見韓不選2020？　王金平留言「大力支持」被嗆爆(dvFQgbOc-yA)</h2>
+<div class='lazyload' data-img='tile-202-0.png' data-crop='crop-202-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="3773" data-end="3777" data-youtube-id="" data-youtube-title=""><h1>62:53 - 62:57</h1>
+<div class='lazyload' data-img='tile-203-0.png' data-crop='crop-203-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="3778" data-end="3780" data-youtube-id="" data-youtube-title=""><h1>62:58 - 63:00</h1>
+<div class='lazyload' data-img='tile-204-0.png' data-crop='crop-204-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="3781" data-end="3784" data-youtube-id="" data-youtube-title=""><h1>63:01 - 63:04</h1>
+<div class='lazyload' data-img='tile-205-0.png' data-crop='crop-205-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="3785" data-end="3837" data-youtube-id="dvFQgbOc-yA" data-youtube-title="樂見韓不選2020？　王金平留言「大力支持」被嗆爆"><h1>63:05 - 63:57</h1>
+<h2>20190331. 樂見韓不選2020？　王金平留言「大力支持」被嗆爆(dvFQgbOc-yA)</h2>
+<div class='lazyload' data-img='tile-206-0.png' data-crop='crop-206-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="3838" data-end="3856" data-youtube-id="" data-youtube-title=""><h1>63:58 - 64:16</h1>
+<div class='lazyload' data-img='tile-207-0.png' data-crop='crop-207-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="3857" data-end="3901" data-youtube-id="lkvxrNFKyQU" data-youtube-title="總統高度？　韓國瑜哈佛演講　新增「兩岸議題」"><h1>64:17 - 65:01</h1>
+<h2>20190331. 總統高度？　韓國瑜哈佛演講　新增「兩岸議題」(lkvxrNFKyQU)</h2>
+<div class='lazyload' data-img='tile-208-0.png' data-crop='crop-208-0.png' style='cursor:pointer'> load more </div>
+</div>
+<div class="group" data-start="0" data-end="0" data-youtube-id="" data-youtube-title=""><h1>00:00 - 00:00</h1>
+<div class='lazyload' data-img='tile-209-0.png' data-crop='crop-209-0.png' style='cursor:pointer'> load more </div>
+</div>
+
+        </div>
+    </div>
+</body>
+</html>
